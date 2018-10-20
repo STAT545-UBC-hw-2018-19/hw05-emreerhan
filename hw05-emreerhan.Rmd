@@ -171,9 +171,9 @@ The graphical interface makes the graph much more interactive! We can use this t
 ## Part 4: Writing figures to file
 
 ```{r}
-ggsave(plot, filename = 'images/wealth_dist.png')
+ggsave(plot, filename = 'images/wealth_dist.png', device = 'png')
 ggsave(plot, filename = 'images/wealth_dist.jpg', device = 'jpg')
 ggsave(plot, filename = 'images/wealth_dist.pdf', device = 'pdf')
 ```
 
-![Distribution of GDP per capita among continents](/Users/emreerhan/stat545/hw05-emreerhan/wealth_dist.png)
+![Distribution of GDP per capita among continents](images/wealth_dist.png)

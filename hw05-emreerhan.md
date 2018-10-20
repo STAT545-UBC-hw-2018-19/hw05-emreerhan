@@ -254,7 +254,7 @@ from any transformations we do within the interface.
 ## Part 4: Writing figures to file
 
 ``` r
-ggsave(plot, filename = 'images/wealth_dist.png')
+ggsave(plot, filename = 'images/wealth_dist.png', device = 'png')
 ```
 
     ## Saving 7 x 5 in image
@@ -272,4 +272,4 @@ ggsave(plot, filename = 'images/wealth_dist.pdf', device = 'pdf')
     ## Saving 7 x 5 in image
 
 ![Distribution of GDP per capita among
-continents](/Users/emreerhan/stat545/hw05-emreerhan/wealth_dist.png)
+continents](images/wealth_dist.png)
